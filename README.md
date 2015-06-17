@@ -19,3 +19,14 @@ wget -O localrc http://goo.gl/OeOGqL
 ```
 
 ##Done
+
+## Update với bản Kilo
+
+```sh
+sudo apt-get install git wget -y
+git clone -b stable/kilo https://github.com/openstack-dev/devstack.git
+cd devstack/
+./stack.sh
+```
+
+=> Nhập mật khẩu cho các thành phần trong quá trình cài đặt
